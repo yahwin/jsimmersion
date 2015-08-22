@@ -91,7 +91,7 @@ function traceAncestors(obj) { //--> return an array of prototypes
 
 
 var Rect = (function() {
-  
+
   function Ctor(w, h) {
     this.width = w || 1;
     this.height = h || 1;
@@ -144,7 +144,7 @@ var Rect = (function() {
 
 var Square = (function() {
   function Ctor(size) {
-    Rect.call(this, size, size); 
+    Rect.call(this, size, size);
   }
 //   Ctor.prototype = new Rect;
   Ctor.prototype = Object.create(Rect.prototype); // a "clean" object inherited from Rect!
@@ -185,8 +185,8 @@ var Animal = (function(){
 })()
 
 var Bird = (function(){
-    function Ctor() {
-      
+    function HasWings() {
+
     }
     Ctor.prototype.fly = Object.create(Animal.prototype)
     function fly(){
