@@ -1,0 +1,16 @@
+// checkerboard
+var black = "#";
+var white = "";
+
+
+var row = 2;
+if (row % 2 == 0){
+  if (column % 2== 0)
+  console.log('#')
+} else {
+  console.log('')
+}
+
+for loop and for loop for odd and even rows
+
+for loop for number of rows

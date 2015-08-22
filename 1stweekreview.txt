@@ -1,0 +1,4 @@
+Things to work on:
+review function
+vocabulary/syntax
+truthiness/falsieness
